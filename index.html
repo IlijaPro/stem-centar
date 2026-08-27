@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Centar za robotiku i STEM edukaciju | Početna</title>
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Centar za robotiku i STEM edukaciju pruža edukativne programe iz robotike, programiranja, elektronike, 3D modelovanja i STEM oblasti.">
+
+    <meta name="keywords"
+        content="robotika, STEM, programiranje, Arduino, elektronika, 3D modelovanje, edukacija, radionice">
+
+    <meta name="author" content="Centar za robotiku i STEM edukaciju">
+    <meta name="robots" content="index, follow">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/stil.css">
+
+    <!-- Svetla i tamna tema -->
+    <link id="tema-stil" rel="stylesheet" href="css/svetla.css">
+
+    <!-- Promena veličine fonta -->
+    <link id="font-stil" rel="stylesheet" href="">
+
+    <!-- JavaScript -->
+    <script src="js/jquery-4.0.0.min.js" defer></script>
+    <script src="js/skripta.js" defer></script>
+    <script src="js/tema.js" defer></script>
+    <script src="js/jezik.js" defer></script>
+
+</head>
+
+
+<body>
+
+    <!-- ZAGLAVLJE -->
+    <header class="zaglavlje">
+
+        <div class="zaglavlje-kontejner">
+
+            <a href="index.html">
+                <img
+                    id="logo"
+                    src="slike/logo.png"
+                    alt="Logo Centra za robotiku i STEM edukaciju">
+            </a>
+
+            <div class="naziv-centra">
+                <h1 id="naslov-centra">Centar za robotiku i STEM edukaciju</h1>
+                <p id="podnaslov-centra">Znanje, tehnologija i ideje budućnosti</p>
+            </div>
+
+            <!-- Pristupačnost -->
+            <div class="pristupacnost">
+
+                <button id="dugme-tema" onclick="promeniTemu()">
+                    Promeni temu
+                </button>
+
+                <button id="dugme-font" onclick="promeniFont()">
+                    Promeni font
+                </button>
+
+                <button onclick="promeniJezik('sr')">
+                    Prevedi na srpski
+                </button>
+
+                <button onclick="promeniJezik('en')">
+                    Prevedi na engleski
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- NAVIGACIJA -->
+        <nav class="meni" aria-label="Glavna navigacija">
+
+            <div class="nav-kontejner">
+
+                <!-- Hamburger meni za mobilne uređaje -->
+                <div class="hamburger" id="hamburger">&#9776;</div>
+
+                <div class="meni-lista" id="meni-lista">
+
+                    <a id="nav-pocetna"
+                        class="link-navigacija"
+                        href="index.html">
+                        POČETNA
+                    </a>
+
+                    <a id="nav-o-nama"
+                        class="link-navigacija"
+                        href="o-nama.html">
+                        O NAMA
+                    </a>
+
+
+                    <!-- MEGA MENI -->
+                    <section id="megaMeni-Kontejner">
+
+                        <button id="megaMeni-Dugme">
+                            &#x2BC6;&nbsp; PROGRAMI
+                        </button>
+
+                        <section id="megaMeni-Manji-Kontejner">
+
+                            <div class="MegaMeni-Kolona">
+
+                                <h3 id="mega-robotika-elektronika">
+                                    Robotika i elektronika
+                                </h3>
+
+                                <a id="mega-robotika"
+                                    class="link-navigacija"
+                                    href="robotika.html">
+                                    Robotika
+                                </a>
+
+                                <a id="mega-arduino"
+                                    class="link-navigacija"
+                                    href="arduino-elektronika.html">
+                                    Arduino i elektronika
+                                </a>
+
+                                <a id="mega-stem"
+                                    class="link-navigacija"
+                                    href="stem-radionice.html">
+                                    STEM radionice
+                                </a>
+
+                            </div>
+
+
+                            <div class="MegaMeni-Kolona">
+
+                                <h3 id="mega-programiranje-dizajn">
+                                    Programiranje i dizajn
+                                </h3>
+
+                                <a id="mega-programiranje"
+                                    class="link-navigacija"
+                                    href="programiranje.html">
+                                    Programiranje
+                                </a>
+
+                                <a id="mega-3d"
+                                    class="link-navigacija"
+                                    href="3D-modelovanje.html">
+                                    3D modelovanje
+                                </a>
+
+                            </div>
+
+                        </section>
+
+                    </section>
+
+
+                    <a id="nav-projekti"
+                        class="link-navigacija"
+                        href="projekti.html">
+                        PROJEKTI
+                    </a>
+
+                    <a id="nav-kontakt"
+                        class="link-navigacija"
+                        href="kontakt.html">
+                        KONTAKT
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- GLAVNI SADRŽAJ -->
+    <main>
+
+
+        <!-- SLAJDER -->
+        <section class="pocetna-slajder">
+
+            <div class="slajder">
+
+                <button
+                    class="prethodni"
+                    onclick="prikaziSlajd(trenutniSlajd - 1)">
+                    &#10094;
+                </button>
+
+
+                <div class="slajderKontejner">
+
+                    <img
+                        src="slike/slajder-robotika.jpg"
+                        class="slajd"
+                        alt="Polaznici centra na radionici robotike">
+
+                    <img
+                        src="slike/slajder-programiranje.jpg"
+                        class="slajd"
+                        alt="Radionica programiranja u STEM centru">
+
+                    <img
+                        src="slike/slajder-stem.jpg"
+                        class="slajd"
+                        alt="STEM edukativna radionica">
+
+                </div>
+
+
+                <button
+                    class="sledeci"
+                    onclick="prikaziSlajd(trenutniSlajd + 1)">
+                    &#10095;
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- O CENTRU -->
+        <section class="sekcija" id="o-centru"
+         vocab="https://schema.org/"
+         typeof="Organization">
+
+            <div class="kontejner">
+
+                <h2 id="dobrodosli-naslov"  property="name">
+                    Dobro došli u Centar za robotiku i STEM edukaciju
+                </h2>
+
+                <p id="dobrodosli-tekst-1"  property="description">
+                    Centar za robotiku i STEM edukaciju namenjen je učenju,
+                    razvoju kreativnosti i sticanju praktičnih znanja iz
+                    oblasti savremenih tehnologija.
+                </p>
+
+                <p id="dobrodosli-tekst-2">
+                    Kroz praktičan rad polaznici se upoznaju sa robotikom,
+                    programiranjem, elektronikom, Arduino platformom,
+                    3D modelovanjem i drugim STEM oblastima.
+                </p>
+
+                <a id="saznajte-vise"
+                    class="dugme-link"
+                    href="o-nama.html">
+                    Saznajte više o nama
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- IZDVOJENI PROGRAMI -->
+        <section class="sekcija-programi" id="programi">
+
+            <div class="kontejner">
+
+                <h2 id="izdvojeni-programi"
+                    class="naslov-sekcije">
+                    Izdvojeni programi
+                </h2>
+
+
+                <div class="flex-kontejner">
+
+
+                    <article class="kartica">
+
+                        <img
+                            src="slike/robotika.jpg"
+                            alt="Edukativni program robotike">
+
+                        <h3 id="robotika-naslov">
+                            Robotika
+                        </h3>
+
+                        <p id="robotika-tekst">
+                            Upoznavanje sa osnovama robotike,
+                            senzorima, motorima i upravljanjem robotima.
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="kartica">
+
+                        <img
+                            src="slike/programiranje.jpg"
+                            alt="Edukativni program programiranja">
+
+                        <h3 id="programiranje-naslov">
+                            Programiranje
+                        </h3>
+
+                        <p id="programiranje-tekst">
+                            Razvoj logičkog razmišljanja i upoznavanje
+                            sa osnovama programiranja kroz praktične zadatke.
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="kartica">
+
+                        <img
+                            src="slike/arduino.jpg"
+                            alt="Program Arduino i elektronika">
+
+                        <h3 id="arduino-naslov">
+                            Arduino i elektronika
+                        </h3>
+
+                        <p id="arduino-tekst">
+                            Rad sa elektronskim komponentama,
+                            senzorima i Arduino platformom.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+
+                
+            </div>
+
+        </section>
+
+
+
+        <!-- IZDVOJENI PROJEKTI -->
+        <section class="sekcija-projekti" id="projekti">
+
+            <div class="kontejner">
+
+                <h2 id="izdvojeni-projekti"
+                    class="naslov-sekcije">
+                    Izdvojeni projekti
+                </h2>
+
+
+                <div class="flex-kontejner">
+
+
+                    <article class="kartica">
+
+                        <img
+                            src="slike/autonomni-robot.jpg"
+                            alt="Projekat autonomnog robota">
+
+                        <h3 id="autonomni-robot-naslov">
+                            Autonomni robot
+                        </h3>
+
+                        <p id="autonomni-robot-tekst">
+                            Robot koji pomoću senzora prepoznaje
+                            prepreke i samostalno menja pravac kretanja.
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="kartica">
+
+                        <img
+                            src="slike/robotska-ruka.jpg"
+                            alt="Projekat robotske ruke">
+
+                        <h3 id="robotska-ruka-naslov">
+                            Robotska ruka
+                        </h3>
+
+                        <p id="robotska-ruka-tekst">
+                            Edukativni projekat kojim se prikazuje
+                            upravljanje pokretima robotske ruke.
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="kartica">
+
+                        <img
+                            src="slike/pametna-kuca.jpg"
+                            alt="STEM projekat pametne kuće">
+
+                        <h3 id="pametna-kuca-naslov">
+                            Pametna kuća
+                        </h3>
+
+                        <p id="pametna-kuca-tekst">
+                            Sistem zasnovan na senzorima i elektronici
+                            za automatizaciju različitih funkcija kuće.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+
+                <a id="pogledajte-projekte"
+                    class="dugme-link"
+                    href="projekti.html">
+                    Pogledajte sve projekte
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- PODNOŽJE -->
+    <footer class="futer">
+
+        <div class="kontejner">
+
+            <p id="footer-1">
+                &copy; 2026 Centar za robotiku i STEM edukaciju
+            </p>
+
+            <p id="footer-2">
+                Edukacija • Robotika • Programiranje • STEM
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

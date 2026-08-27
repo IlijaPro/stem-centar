@@ -1,0 +1,149 @@
+{
+   "pocetna": {
+
+
+    "naslov": "Centar za robotiku i STEM edukaciju",
+  "podnaslov": "Znanje, tehnologija i ideje budućnosti",
+
+  "promeniTemu": "Promeni temu",
+  "promeniFont": "Promeni font",
+
+  "pocetna": "POČETNA",
+  "oNama": "O NAMA",
+  "programi": "PROGRAMI",
+  "projekti": "PROJEKTI",
+  "kontakt": "KONTAKT",
+
+  "megaRobotikaElektronika": "Robotika i elektronika",
+  "megaRobotika": "Robotika",
+  "megaArduino": "Arduino i elektronika",
+  "megaStem": "STEM radionice",
+
+  "megaProgramiranjeDizajn": "Programiranje i dizajn",
+  "megaProgramiranje": "Programiranje",
+  "mega3D": "3D modelovanje",
+
+  "dobrodosliNaslov": "Dobro došli u Centar za robotiku i STEM edukaciju",
+
+  "dobrodosliTekst1": "Centar za robotiku i STEM edukaciju namenjen je učenju, razvoju kreativnosti i sticanju praktičnih znanja iz oblasti savremenih tehnologija.",
+
+  "dobrodosliTekst2": "Kroz praktičan rad polaznici se upoznaju sa robotikom, programiranjem, elektronikom, Arduino platformom, 3D modelovanjem i drugim STEM oblastima.",
+
+  "saznajteVise": "Saznajte više o nama",
+
+  "izdvojeniProgrami": "Izdvojeni programi",
+
+  "robotikaNaslov": "Robotika",
+  "robotikaTekst": "Upoznavanje sa osnovama robotike, senzorima, motorima i upravljanjem robotima.",
+
+  "programiranjeNaslov": "Programiranje",
+  "programiranjeTekst": "Razvoj logičkog razmišljanja i upoznavanje sa osnovama programiranja kroz praktične zadatke.",
+
+  "arduinoNaslov": "Arduino i elektronika",
+  "arduinoTekst": "Rad sa elektronskim komponentama, senzorima i Arduino platformom.",
+
+  "pogledajtePrograme": "Pogledajte sve programe",
+
+  "izdvojeniProjekti": "Izdvojeni projekti",
+
+  "autonomniRobotNaslov": "Autonomni robot",
+  "autonomniRobotTekst": "Robot koji pomoću senzora prepoznaje prepreke i samostalno menja pravac kretanja.",
+
+  "robotskaRukaNaslov": "Robotska ruka",
+  "robotskaRukaTekst": "Edukativni projekat kojim se prikazuje upravljanje pokretima robotske ruke.",
+
+  "pametnaKucaNaslov": "Pametna kuća",
+  "pametnaKucaTekst": "Sistem zasnovan na senzorima i elektronici za automatizaciju različitih funkcija kuće.",
+
+  "pogledajteProjekte": "Pogledajte sve projekte",
+
+  "footer1": "© 2026 Centar za robotiku i STEM edukaciju",
+  "footer2": "Edukacija • Robotika • Programiranje • STEM"
+  
+  },
+  
+  "projekti": {
+    "projektiNaslov": "Naši projekti",
+    "projektiUvod": "Projekti Centra za robotiku i STEM edukaciju nastaju kroz praktičan rad i primenu znanja iz robotike, elektronike, programiranja i drugih STEM oblasti.",
+    "autonomniRobotNaslov": "Autonomni robot",
+    "autonomniRobotTekst": "Autonomni robot koristi senzore za prepoznavanje prepreka i samostalno menja pravac kretanja.",
+    "robotskaRukaNaslov": "Robotska ruka",
+    "robotskaRukaTekst": "Edukativni projekat kojim se prikazuje upravljanje pokretima robotske ruke pomoću elektronskih komponenti.",
+    "pametnaKucaNaslov": "Pametna kuća",
+    "pametnaKucaTekst": "Sistem zasnovan na senzorima i elektronici omogućava automatizaciju različitih funkcija kuće.",
+    "meteoroloskaStanicaNaslov": "Meteorološka stanica",
+    "meteoroloskaStanicaTekst": "Projekat omogućava merenje temperature, vlažnosti vazduha i drugih podataka pomoću senzora.",
+    "navodnjavanjeNaslov": "Pametno navodnjavanje",
+    "navodnjavanjeTekst": "Sistem prati stanje zemljišta i pomoću senzora automatski upravlja navodnjavanjem biljaka.",
+    "videoNaslov": "Video prikaz projekta",
+    "videoTekst": "Pogledajte kratku demonstraciju jednog od edukativnih STEM projekata.",
+    "dokumentNaslov": "Dokumentacija projekta",
+    "dokumentTekst": "Detaljniji opis projekta Pametna kuća dostupan je u pratećem dokumentu.",
+    "dokumentLink": "Pogledaj dokumentaciju projekta"
+     },
+
+     "robotika": {
+    "naslov": "Robotika",
+    "opis": "Program robotike namenjen je polaznicima koji žele da se upoznaju sa osnovama savremenih robotskih sistema i njihovom primenom. Tokom programa polaznici se upoznaju sa osnovnim principima rada robota, senzorima, motorima i sistemima za upravljanje, kao i sa osnovama programiranja koje omogućavaju kontrolu ponašanja robota. Posebna pažnja posvećena je razumevanju načina na koji robot prima informacije iz svog okruženja, obrađuje ih i na osnovu njih izvršava određene zadatke. Program je prilagođen početnicima i omogućava postepeno sticanje znanja iz robotike kroz jednostavne i praktične primere.",
+    "kontakt": "Ukoliko želite da pohađate ovaj program ili su vam potrebne dodatne informacije, možete nam se obratiti putem stranice Kontakt koja se nalazi u glavnom meniju."
+      },
+
+"arduino": {
+    "naslov": "Arduino i elektronika",
+    "opis": "Program Arduino i elektronika namenjen je polaznicima koji žele da se upoznaju sa osnovama elektronike, mikrokontrolera i programiranja kroz praktičan rad sa Arduino platformom. Tokom programa polaznici uče kako se povezuju i koriste različite elektronske komponente, senzori, LED diode, tasteri i drugi elementi, kao i kako se pomoću programa upravlja njihovim radom. Posebna pažnja posvećena je razumevanju načina na koji Arduino prima podatke sa povezanih komponenti, obrađuje ih i izvršava zadate komande. Program je prilagođen početnicima i omogućava postepeno sticanje osnovnih znanja iz elektronike i programiranja kroz jednostavne praktične primere.",
+    "kontakt": "Ukoliko želite da pohađate ovaj program ili su vam potrebne dodatne informacije, možete nam se obratiti putem stranice Kontakt koja se nalazi u glavnom meniju."
+     },
+
+"stemRadionice": {
+    "naslov": "STEM radionice",
+    "opis": "STEM radionice namenjene su polaznicima koji žele da kroz praktičan i kreativan rad povežu znanja iz nauke, tehnologije, inženjerstva i matematike. Tokom radionica polaznici rešavaju različite praktične zadatke, istražuju način rada savremenih tehnologija i primenjuju stečena znanja prilikom izrade jednostavnih eksperimenata i projekata. Posebna pažnja posvećena je razvijanju logičkog razmišljanja, kreativnosti, timskog rada i sposobnosti rešavanja problema. Radionice su prilagođene početnicima i omogućavaju polaznicima da kroz zanimljive praktične aktivnosti upoznaju različite STEM oblasti i razumeju njihovu primenu u svakodnevnom životu.",
+    "kontakt": "Ukoliko želite da pohađate ovaj program ili su vam potrebne dodatne informacije, možete nam se obratiti putem stranice Kontakt koja se nalazi u glavnom meniju."
+    },
+
+"programiranje": {
+    "naslov": "Programiranje",
+    "opis": "Program programiranja namenjen je polaznicima koji žele da se upoznaju sa osnovnim principima razvoja računarskih programa i načinom na koji se pomoću programskog koda rešavaju različiti problemi. Tokom programa polaznici se upoznaju sa osnovnim programskim konceptima, promenljivama, uslovima, petljama, funkcijama i jednostavnim algoritmima, uz postepeno razvijanje logičkog i algoritamskog načina razmišljanja. Posebna pažnja posvećena je razumevanju programskog koda i njegovoj praktičnoj primeni kroz izradu jednostavnih programa i rešavanje zadataka. Program je prilagođen početnicima i omogućava polaznicima da postepeno steknu osnovna znanja potrebna za dalje učenje i razvoj u oblasti programiranja.",
+    "kontakt": "Ukoliko želite da pohađate ovaj program ili su vam potrebne dodatne informacije, možete nam se obratiti putem stranice Kontakt koja se nalazi u glavnom meniju."
+   },
+
+"modelovanje3D": {
+    "naslov": "3D modelovanje",
+    "opis": "Program 3D modelovanja namenjen je polaznicima koji žele da se upoznaju sa osnovama izrade i oblikovanja trodimenzionalnih digitalnih modela. Tokom programa polaznici se upoznaju sa osnovnim principima rada u programima za 3D modelovanje, kreiranjem jednostavnih geometrijskih oblika, njihovim kombinovanjem, menjanjem dimenzija i oblikovanjem složenijih objekata. Posebna pažnja posvećena je razvijanju prostornog razmišljanja, kreativnosti i razumevanju načina na koji se digitalni 3D modeli mogu koristiti u dizajnu, inženjerstvu, robotici i drugim tehničkim oblastima. Program je prilagođen početnicima i omogućava postepeno sticanje osnovnih znanja potrebnih za samostalnu izradu jednostavnih 3D modela.",
+    "kontakt": "Ukoliko želite da pohađate ovaj program ili su vam potrebne dodatne informacije, možete nam se obratiti putem stranice Kontakt koja se nalazi u glavnom meniju."
+     },
+
+     "kontaktStranica": {
+    "naslov": "Kontakt",
+    "uvod": "Za dodatne informacije o našim programima i radionicama možete nam poslati poruku putem kontakt forme.",
+    "ime": "Ime i prezime:",
+    "email": "Email:",
+    "program": "Izaberite program:",
+    "izaberite": "Izaberite program",
+    "robotika": "Robotika",
+    "arduino": "Arduino i elektronika",
+    "stem": "STEM radionice",
+    "programiranje": "Programiranje",
+    "modelovanje": "3D modelovanje",
+    "poruka": "Poruka:",
+    "posalji": "Pošalji"
+    }, 
+
+  "oNamaStranica": {
+    "naslov": "O nama",
+    "tekst": "Centar za robotiku i STEM edukaciju je edukativni centar namenjen učenju i razvoju praktičnih znanja iz oblasti savremenih tehnologija. Kroz programe robotike, programiranja, elektronike, Arduino platforme, STEM radionica i 3D modelovanja, polaznicima omogućavamo da kroz praktičan rad razvijaju tehničke veštine, kreativnost i sposobnost rešavanja problema.",
+
+    "misijaNaslov": "Naša misija",
+    "misijaTekst": "Naša misija je da polaznicima približimo savremene tehnologije kroz praktično učenje, eksperimente i realizaciju različitih projekata, kao i da podstaknemo interesovanje za robotiku, programiranje i druge STEM oblasti.",
+
+    "ciljeviNaslov": "Naši ciljevi",
+    "ciljeviTekst": "Cilj centra je razvoj praktičnih i tehničkih znanja, podsticanje kreativnosti, upoznavanje polaznika sa savremenim tehnologijama i stvaranje okruženja u kojem mogu da razvijaju sopstvene ideje i realizuju različite STEM projekte.",
+
+    "vlasnikNaslov": "Vlasnik centra",
+    "vlasnikIme": "Ilija Ljubojević",
+    "instagramTekst": "Instagram profil vlasnika:",
+
+    "lokacijaNaslov": "Gde se nalazimo",
+    "lokacijaTekst": "Centar se nalazi na adresi Gundulićeva 3, Vršac."
+   }
+  
+}

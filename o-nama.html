@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Centar za robotiku i STEM edukaciju | O nama
+    </title>
+
+
+    <!-- SEO -->
+
+    <meta
+        name="description"
+        content="Saznajte više o Centru za robotiku i STEM edukaciju, našoj misiji, ciljevima, vlasniku i lokaciji centra u Vršcu.">
+
+    <meta
+        name="keywords"
+        content="Centar za robotiku, STEM, edukacija, robotika, programiranje, Vršac">
+
+    <meta
+        name="author"
+        content="Centar za robotiku i STEM edukaciju">
+
+    <meta
+        name="robots"
+        content="index, follow">
+
+
+    <!-- LOKALNI BOOTSTRAP CSS -->
+
+    <link
+        rel="stylesheet"
+        href="bootstrap/css/bootstrap.min.css">
+
+
+    <!-- JavaScript sajta -->
+
+    <script
+        src="js/skripta.js"
+        defer>
+    </script>
+
+    <script
+        src="js/tema.js"
+        defer>
+    </script>
+
+    <script
+        src="js/jezik.js"
+        defer>
+    </script>
+
+</head>
+
+
+<body id="bootstrap-stranica" class="bg-light text-dark" >
+
+
+    <!-- ZAGLAVLJE -->
+
+    <header>
+
+
+        <div class="container py-4">
+
+
+            <div class="row align-items-center g-3">
+
+
+                <!-- LOGO -->
+
+                <div class="col-12 col-md-2 text-center">
+
+
+                    <a href="index.html">
+
+
+                        <img
+                            id="logo"
+                            src="slike/logo.png"
+                            class="img-fluid"
+                            alt="Logo Centra za robotiku i STEM edukaciju">
+
+
+                    </a>
+
+
+                </div>
+
+
+
+                <!-- NAZIV CENTRA -->
+
+                <div class="col-12 col-md-5 text-center text-md-start">
+
+
+                    <h1
+                        id="naslov-centra"
+                        class="h3 mb-2">
+
+                        Centar za robotiku i STEM edukaciju
+
+                    </h1>
+
+
+                    <p
+                        id="podnaslov-centra"
+                        class="mb-0">
+
+                        Znanje, tehnologija i ideje budućnosti
+
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- PRISTUPAČNOST I JEZIK -->
+
+                <div class="col-12 col-md-5">
+
+
+                    <div class="d-flex flex-wrap justify-content-center justify-content-md-end gap-2">
+
+
+                        <button
+                            id="dugme-tema"
+                            class="btn btn-outline-secondary"
+                            type="button"
+                            onclick="promeniTemu()">
+
+                            Promeni temu
+
+                        </button>
+
+
+                        <button
+                            id="dugme-font"
+                            class="btn btn-outline-secondary"
+                            type="button"
+                            onclick="promeniFont()">
+
+                            Promeni font
+
+                        </button>
+
+
+                        <button
+                            class="btn btn-outline-primary"
+                            type="button"
+                            onclick="promeniJezik('sr')">
+
+                            SR
+
+                        </button>
+
+
+                        <button
+                            class="btn btn-outline-primary"
+                            type="button"
+                            onclick="promeniJezik('en')">
+
+                            EN
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- BOOTSTRAP NAVIGACIJA -->
+
+        <nav
+            class="navbar navbar-expand-lg navbar-dark bg-dark"
+            aria-label="Glavna navigacija">
+
+
+            <div class="container">
+
+
+                <a
+                    class="navbar-brand"
+                    href="index.html">
+
+                    STEM Centar
+
+                </a>
+
+
+
+                <!-- BOOTSTRAP HAMBURGER -->
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#glavniMeni"
+                    aria-controls="glavniMeni"
+                    aria-expanded="false"
+                    aria-label="Prikaži navigaciju">
+
+
+                    <span class="navbar-toggler-icon"></span>
+
+
+                </button>
+
+
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="glavniMeni">
+
+
+                    <ul class="navbar-nav ms-auto">
+
+
+                        <!-- POČETNA -->
+
+                        <li class="nav-item">
+
+
+                            <a
+                                id="nav-pocetna"
+                                class="nav-link"
+                                href="index.html">
+
+                                POČETNA
+
+                            </a>
+
+
+                        </li>
+
+
+
+                        <!-- O NAMA -->
+
+                        <li class="nav-item">
+
+
+                            <a
+                                id="nav-o-nama"
+                                class="nav-link active"
+                                href="o-nama.html">
+
+                                O NAMA
+
+                            </a>
+
+
+                        </li>
+
+
+
+                        <!-- PROGRAMI -->
+
+                        <li class="nav-item dropdown">
+
+
+                            <a
+                                id="megaMeni-Dugme"
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+
+                                PROGRAMI
+
+                            </a>
+
+
+
+                            <ul class="dropdown-menu">
+
+
+                                <li>
+
+                                    <h6
+                                        id="mega-robotika-elektronika"
+                                        class="dropdown-header">
+
+                                        Robotika i elektronika
+
+                                    </h6>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a
+                                        id="mega-robotika"
+                                        class="dropdown-item"
+                                        href="robotika.html">
+
+                                        Robotika
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a
+                                        id="mega-arduino"
+                                        class="dropdown-item"
+                                        href="arduino-elektronika.html">
+
+                                        Arduino i elektronika
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a
+                                        id="mega-stem"
+                                        class="dropdown-item"
+                                        href="stem-radionice.html">
+
+                                        STEM radionice
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <hr class="dropdown-divider">
+
+                                </li>
+
+
+                                <li>
+
+                                    <h6
+                                        id="mega-programiranje-dizajn"
+                                        class="dropdown-header">
+
+                                        Programiranje i dizajn
+
+                                    </h6>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a
+                                        id="mega-programiranje"
+                                        class="dropdown-item"
+                                        href="programiranje.html">
+
+                                        Programiranje
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a
+                                        id="mega-3d"
+                                        class="dropdown-item"
+                                        href="3D-modelovanje.html">
+
+                                        3D modelovanje
+
+                                    </a>
+
+                                </li>
+
+
+                            </ul>
+
+
+                        </li>
+
+
+
+                        <!-- PROJEKTI -->
+
+                        <li class="nav-item">
+
+
+                            <a
+                                id="nav-projekti"
+                                class="nav-link"
+                                href="projekti.html">
+
+                                PROJEKTI
+
+                            </a>
+
+
+                        </li>
+
+
+
+                        <!-- KONTAKT -->
+
+                        <li class="nav-item">
+
+
+                            <a
+                                id="nav-kontakt"
+                                class="nav-link"
+                                href="kontakt.html">
+
+                                KONTAKT
+
+                            </a>
+
+
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+
+
+        </nav>
+
+
+    </header>
+
+
+
+
+    <!-- GLAVNI SADRŽAJ -->
+
+    <main>
+
+
+        <!-- O NAMA -->
+
+        <section class="container py-5">
+
+
+            <div class="row justify-content-center">
+
+
+                <div class="col-12 col-lg-10">
+
+
+                    <div class="card shadow-sm">
+
+
+                        <div class="card-body p-4">
+
+
+                            <h2
+                                id="o-nama-naslov"
+                                class="text-center mb-4">
+
+                                O nama
+
+                            </h2>
+
+
+                            <p
+                                id="o-nama-tekst"
+                                class="lead">
+
+                                Centar za robotiku i STEM edukaciju je edukativni
+                                centar namenjen učenju i razvoju praktičnih znanja
+                                iz oblasti savremenih tehnologija. Kroz programe
+                                robotike, programiranja, elektronike, Arduino
+                                platforme, STEM radionica i 3D modelovanja,
+                                polaznicima omogućavamo da kroz praktičan rad
+                                razvijaju tehničke veštine, kreativnost i
+                                sposobnost rešavanja problema.
+
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- MISIJA I CILJEVI -->
+
+        <section class="container pb-5">
+
+
+            <div class="row g-4">
+
+
+                <!-- MISIJA -->
+
+                <div class="col-12 col-md-6">
+
+
+                    <div class="card h-100 shadow-sm">
+
+
+                        <div class="card-body p-4">
+
+
+                            <h2
+                                id="misija-naslov"
+                                class="h4 mb-3">
+
+                                Naša misija
+
+                            </h2>
+
+
+                            <p
+                                id="misija-tekst"
+                                class="mb-0">
+
+                                Naša misija je da polaznicima približimo savremene
+                                tehnologije kroz praktično učenje, eksperimente i
+                                realizaciju različitih projekata, kao i da
+                                podstaknemo interesovanje za robotiku,
+                                programiranje i druge STEM oblasti.
+
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- CILJEVI -->
+
+                <div class="col-12 col-md-6">
+
+
+                    <div class="card h-100 shadow-sm">
+
+
+                        <div class="card-body p-4">
+
+
+                            <h2
+                                id="ciljevi-naslov"
+                                class="h4 mb-3">
+
+                                Naši ciljevi
+
+                            </h2>
+
+
+                            <p
+                                id="ciljevi-tekst"
+                                class="mb-0">
+
+                                Cilj centra je razvoj praktičnih i tehničkih
+                                znanja, podsticanje kreativnosti, upoznavanje
+                                polaznika sa savremenim tehnologijama i stvaranje
+                                okruženja u kojem mogu da razvijaju sopstvene
+                                ideje i realizuju različite STEM projekte.
+
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- VLASNIK -->
+
+        <section class="container pb-5">
+
+
+            <div class="row justify-content-center">
+
+
+                <div class="col-12 col-md-8">
+
+
+                    <div class="card text-center shadow-sm">
+
+
+                        <div class="card-body p-4">
+
+
+                            <h2
+                                id="vlasnik-naslov"
+                                class="h4 mb-3">
+
+                                Vlasnik centra
+
+                            </h2>
+
+
+                            <p
+                                id="vlasnik-ime"
+                                class="fw-bold fs-5">
+
+                                Ilija Ljubojević
+
+                            </p>
+
+
+                            <p class="mb-0">
+
+
+                                <span id="instagram-tekst">
+
+                                    Instagram profil vlasnika:
+
+                                </span>
+
+
+                                <a
+                                    class="link-primary"
+                                    href="https://www.instagram.com/ljubojevicc_i/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    @ljubojevicc_i
+
+                                </a>
+
+
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- LOKACIJA -->
+
+        <section class="container pb-5">
+
+
+            <div class="row justify-content-center">
+
+
+                <div class="col-12 col-lg-10">
+
+
+                    <div class="card shadow-sm">
+
+
+                        <div class="card-body p-4">
+
+
+                            <h2
+                                id="lokacija-naslov"
+                                class="text-center mb-3">
+
+                                Gde se nalazimo
+
+                            </h2>
+
+
+                            <p
+                                id="lokacija-tekst"
+                                class="text-center">
+
+                                Centar se nalazi na adresi
+                                Gundulićeva 3, Vršac.
+
+                            </p>
+
+
+
+                            <!-- GOOGLE MAPS -->
+
+                            <div class="ratio ratio-16x9">
+
+
+                                <iframe
+                                    src="https://www.google.com/maps?q=Gunduliceva+3,+Vrsac,+Serbia&output=embed"
+                                    allowfullscreen
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Lokacija Centra za robotiku i STEM edukaciju">
+                                </iframe>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-dark text-white py-4">
+
+
+        <div class="container text-center">
+
+
+            <p
+                id="footer-1"
+                class="mb-2">
+
+                &copy; 2026 Centar za robotiku i STEM edukaciju
+
+            </p>
+
+
+            <p
+                id="footer-2"
+                class="mb-0">
+
+                Edukacija • Robotika • Programiranje • STEM
+
+            </p>
+
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    <!-- LOKALNI BOOTSTRAP JAVASCRIPT -->
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

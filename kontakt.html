@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Centar za robotiku i STEM edukaciju | Kontakt</title>
+
+
+    <!-- SEO -->
+
+    <meta
+        name="description"
+        content="Kontaktirajte Centar za robotiku i STEM edukaciju i saznajte više o programima robotike, elektronike, STEM radionica, programiranja i 3D modelovanja.">
+
+    <meta
+        name="keywords"
+        content="kontakt, robotika, STEM, Arduino, programiranje, 3D modelovanje, edukacija">
+
+    <meta
+        name="author"
+        content="Centar za robotiku i STEM edukaciju">
+
+    <meta
+        name="robots"
+        content="index, follow">
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="css/stil.css">
+
+
+    <!-- Svetla i tamna tema -->
+
+    <link
+        id="tema-stil"
+        rel="stylesheet"
+        href="css/svetla.css">
+
+
+    <!-- Promena fonta -->
+
+    <link
+        id="font-stil"
+        rel="stylesheet"
+        href="">
+
+
+    <!-- jQuery -->
+
+    <script
+        src="js/jquery-4.0.0.min.js"
+        defer>
+    </script>
+
+
+    <!-- JavaScript -->
+
+    <script
+        src="js/skripta.js"
+        defer>
+    </script>
+
+    <script
+        src="js/tema.js"
+        defer>
+    </script>
+
+    <script
+        src="js/jezik.js"
+        defer>
+    </script>
+
+</head>
+
+
+<body>
+
+
+    <!-- ZAGLAVLJE -->
+
+    <header class="zaglavlje">
+
+
+        <div class="zaglavlje-kontejner">
+
+
+            <!-- LOGO -->
+
+            <a href="index.html">
+
+                <img
+                    id="logo"
+                    src="slike/logo.png"
+                    alt="Logo Centra za robotiku i STEM edukaciju">
+
+            </a>
+
+
+            <!-- NAZIV CENTRA -->
+
+            <div class="naziv-centra">
+
+                <h1 id="naslov-centra">
+                    Centar za robotiku i STEM edukaciju
+                </h1>
+
+                <p id="podnaslov-centra">
+                    Znanje, tehnologija i ideje budućnosti
+                </p>
+
+            </div>
+
+
+            <!-- PRISTUPAČNOST I JEZIK -->
+
+            <div class="pristupacnost">
+
+
+                <button
+                    id="dugme-tema"
+                    onclick="promeniTemu()">
+
+                    Promeni temu
+
+                </button>
+
+
+                <button
+                    id="dugme-font"
+                    onclick="promeniFont()">
+
+                    Promeni font
+
+                </button>
+
+
+                <button onclick="promeniJezik('sr')">
+
+                    Prevedi na srpski
+
+                </button>
+
+
+                <button onclick="promeniJezik('en')">
+
+                    Prevedi na engleski
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- NAVIGACIJA -->
+
+        <nav
+            class="meni"
+            aria-label="Glavna navigacija">
+
+
+            <div class="nav-kontejner">
+
+
+                <!-- HAMBURGER MENI -->
+
+                <div
+                    class="hamburger"
+                    id="hamburger">
+
+                    &#9776;
+
+                </div>
+
+
+
+                <div
+                    class="meni-lista"
+                    id="meni-lista">
+
+
+                    <a
+                        id="nav-pocetna"
+                        class="link-navigacija"
+                        href="index.html">
+
+                        POČETNA
+
+                    </a>
+
+
+                    <a
+                        id="nav-o-nama"
+                        class="link-navigacija"
+                        href="o-nama.html">
+
+                        O NAMA
+
+                    </a>
+
+
+
+                    <!-- MEGA MENI -->
+
+                    <section id="megaMeni-Kontejner">
+
+
+                        <button id="megaMeni-Dugme">
+
+                            PROGRAMI
+
+                        </button>
+
+
+
+                        <section id="megaMeni-Manji-Kontejner">
+
+
+                            <div class="MegaMeni-Kolona">
+
+
+                                <h3 id="mega-robotika-elektronika">
+
+                                    Robotika i elektronika
+
+                                </h3>
+
+
+                                <a
+                                    id="mega-robotika"
+                                    class="link-navigacija"
+                                    href="robotika.html">
+
+                                    Robotika
+
+                                </a>
+
+
+                                <a
+                                    id="mega-arduino"
+                                    class="link-navigacija"
+                                    href="arduino-elektronika.html">
+
+                                    Arduino i elektronika
+
+                                </a>
+
+
+                                <a
+                                    id="mega-stem"
+                                    class="link-navigacija"
+                                    href="stem-radionice.html">
+
+                                    STEM radionice
+
+                                </a>
+
+
+                            </div>
+
+
+
+                            <div class="MegaMeni-Kolona">
+
+
+                                <h3 id="mega-programiranje-dizajn">
+
+                                    Programiranje i dizajn
+
+                                </h3>
+
+
+                                <a
+                                    id="mega-programiranje"
+                                    class="link-navigacija"
+                                    href="programiranje.html">
+
+                                    Programiranje
+
+                                </a>
+
+
+                                <a
+                                    id="mega-3d"
+                                    class="link-navigacija"
+                                    href="3D-modelovanje.html">
+
+                                    3D modelovanje
+
+                                </a>
+
+
+                            </div>
+
+
+                        </section>
+
+
+                    </section>
+
+
+
+                    <a
+                        id="nav-projekti"
+                        class="link-navigacija"
+                        href="projekti.html">
+
+                        PROJEKTI
+
+                    </a>
+
+
+                    <a
+                        id="nav-kontakt"
+                        class="link-navigacija"
+                        href="kontakt.html">
+
+                        KONTAKT
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+        </nav>
+
+
+    </header>
+
+
+
+
+    <!-- GLAVNI SADRŽAJ -->
+
+    <main>
+
+
+        <section class="sekcija">
+
+
+            <div class="kontejner">
+
+
+                <h2
+                    id="kontakt-naslov"
+                    class="naslov-sekcije">
+
+                    Kontakt
+
+                </h2>
+
+
+                <p id="kontakt-uvod">
+
+                    Za dodatne informacije o našim programima i radionicama
+                    možete nam poslati poruku putem kontakt forme.
+
+                </p>
+
+
+
+                <!-- KONTAKT FORMA -->
+
+                <form
+                    id="kontakt-forma"
+                    onsubmit="return validacija()">
+
+
+                    <!-- IME I PREZIME -->
+
+                    <div class="forma-grupa">
+
+                        <label
+                            id="label-ime"
+                            for="ime">
+
+                            Ime i prezime:
+
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="ime"
+                            name="ime"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- EMAIL -->
+
+                    <div class="forma-grupa">
+
+                        <label
+                            id="label-email"
+                            for="email">
+
+                            Email:
+
+                        </label>
+
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- IZBOR PROGRAMA -->
+
+                    <div class="forma-grupa">
+
+                        <label
+                            id="label-program"
+                            for="program">
+
+                            Izaberite program:
+
+                        </label>
+
+
+                        <select
+                            id="program"
+                            name="program">
+
+
+                            <option
+                                id="opcija-izaberite"
+                                value="">
+
+                                Izaberite program
+
+                            </option>
+
+
+                            <option
+                                id="opcija-robotika"
+                                value="robotika">
+
+                                Robotika
+
+                            </option>
+
+
+                            <option
+                                id="opcija-arduino"
+                                value="arduino">
+
+                                Arduino i elektronika
+
+                            </option>
+
+
+                            <option
+                                id="opcija-stem"
+                                value="stem">
+
+                                STEM radionice
+
+                            </option>
+
+
+                            <option
+                                id="opcija-programiranje"
+                                value="programiranje">
+
+                                Programiranje
+
+                            </option>
+
+
+                            <option
+                                id="opcija-3d"
+                                value="3d-modelovanje">
+
+                                3D modelovanje
+
+                            </option>
+
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- PORUKA -->
+
+                    <div class="forma-grupa">
+
+                        <label
+                            id="label-poruka"
+                            for="poruka">
+
+                            Poruka:
+
+                        </label>
+
+
+                        <textarea
+                            id="poruka"
+                            name="poruka"
+                            rows="6"
+                            required></textarea>
+
+                    </div>
+
+
+
+                    <!-- DUGME ZA SLANJE -->
+
+                    <input
+                        id="kontakt-posalji"
+                        type="submit"
+                        value="Pošalji">
+
+
+                </form>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <!-- PODNOŽJE -->
+
+    <footer class="futer">
+
+
+        <div class="kontejner">
+
+
+            <p id="footer-1">
+
+                &copy; 2026 Centar za robotiku i STEM edukaciju
+
+            </p>
+
+
+            <p id="footer-2">
+
+                Edukacija • Robotika • Programiranje • STEM
+
+            </p>
+
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>

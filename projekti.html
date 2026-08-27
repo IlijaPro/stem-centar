@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Centar za robotiku i STEM edukaciju | Projekti</title>
+
+
+    <!-- SEO -->
+
+    <meta
+        name="description"
+        content="Projekti Centra za robotiku i STEM edukaciju iz oblasti robotike, elektronike, programiranja i pametnih sistema.">
+
+    <meta
+        name="keywords"
+        content="robotika, STEM, projekti, autonomni robot, robotska ruka, pametna kuća, Arduino, elektronika">
+
+    <meta
+        name="author"
+        content="Centar za robotiku i STEM edukaciju">
+
+    <meta
+        name="robots"
+        content="index, follow">
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="css/stil.css">
+
+
+    <!-- Svetla i tamna tema -->
+
+    <link
+        id="tema-stil"
+        rel="stylesheet"
+        href="css/svetla.css">
+
+
+    <!-- Promena fonta -->
+
+    <link
+        id="font-stil"
+        rel="stylesheet"
+        href="">
+
+
+    <!-- JavaScript biblioteka -->
+
+    <script
+        src="js/jquery-4.0.0.min.js"
+        defer>
+    </script>
+
+
+    <!-- JavaScript -->
+
+    <script src="js/skripta.js" defer></script>
+
+    <script
+        src="js/tema.js"
+        defer>
+    </script>
+
+    <script
+        src="js/jezik.js"
+        defer>
+    </script>
+
+</head>
+
+
+
+<body>
+
+
+    <!-- ZAGLAVLJE -->
+
+    <header class="zaglavlje">
+
+
+        <div class="zaglavlje-kontejner">
+
+
+            <!-- LOGO -->
+
+            <a href="index.html">
+
+                <img
+                    id="logo"
+                    src="slike/logo.png"
+                    alt="Logo Centra za robotiku i STEM edukaciju">
+
+            </a>
+
+
+            <!-- NAZIV CENTRA -->
+
+            <div class="naziv-centra">
+
+                <h1 id="naslov-centra">
+                    Centar za robotiku i STEM edukaciju
+                </h1>
+
+                <p id="podnaslov-centra">
+                    Znanje, tehnologija i ideje budućnosti
+                </p>
+
+            </div>
+
+
+            <!-- PRISTUPAČNOST I JEZIK -->
+
+            <div class="pristupacnost">
+
+
+                <button
+                    id="dugme-tema"
+                    onclick="promeniTemu()">
+
+                    Promeni temu
+
+                </button>
+
+
+                <button
+                    id="dugme-font"
+                    onclick="promeniFont()">
+
+                    Promeni font
+
+                </button>
+
+
+                <button
+                    id="dugme-srpski"
+                    onclick="promeniJezik('sr')">
+
+                    Prevedi na srpski
+
+                </button>
+
+
+                <button
+                    id="dugme-engleski"
+                    onclick="promeniJezik('en')">
+
+                    Prevedi na engleski
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- NAVIGACIJA -->
+
+        <nav
+            class="meni"
+            aria-label="Glavna navigacija">
+
+
+            <div class="nav-kontejner">
+
+
+                <!-- HAMBURGER MENI -->
+
+                <div
+                    class="hamburger"
+                    id="hamburger">
+
+                    &#9776;
+
+                </div>
+
+
+
+                <div
+                    class="meni-lista"
+                    id="meni-lista">
+
+
+                    <a
+                        id="nav-pocetna"
+                        class="link-navigacija"
+                        href="index.html">
+
+                        POČETNA
+
+                    </a>
+
+
+                    <a
+                        id="nav-o-nama"
+                        class="link-navigacija"
+                        href="o-nama.html">
+
+                        O NAMA
+
+                    </a>
+
+
+
+                    <!-- MEGA MENI -->
+
+                    <section id="megaMeni-Kontejner">
+
+
+                        <button id="megaMeni-Dugme">
+
+                            PROGRAMI
+
+                        </button>
+
+
+
+                        <section id="megaMeni-Manji-Kontejner">
+
+
+                            <div class="MegaMeni-Kolona">
+
+
+                                <h3 id="mega-robotika-elektronika">
+
+                                    Robotika i elektronika
+
+                                </h3>
+
+
+                                <a
+                                    id="mega-robotika"
+                                    class="link-navigacija"
+                                    href="robotika.html">
+
+                                    Robotika
+
+                                </a>
+
+
+                                <a
+                                    id="mega-arduino"
+                                    class="link-navigacija"
+                                    href="arduino-elektronika.html">
+
+                                    Arduino i elektronika
+
+                                </a>
+
+
+                                <a
+                                    id="mega-stem"
+                                    class="link-navigacija"
+                                    href="stem-radionice.html">
+
+                                    STEM radionice
+
+                                </a>
+
+
+                            </div>
+
+
+
+                            <div class="MegaMeni-Kolona">
+
+
+                                <h3 id="mega-programiranje-dizajn">
+
+                                    Programiranje i dizajn
+
+                                </h3>
+
+
+                                <a
+                                    id="mega-programiranje"
+                                    class="link-navigacija"
+                                    href="programiranje.html">
+
+                                    Programiranje
+
+                                </a>
+
+
+                                <a
+                                    id="mega-3d"
+                                    class="link-navigacija"
+                                    href="3D-modelovanje.html">
+
+                                    3D modelovanje
+
+                                </a>
+
+
+                            </div>
+
+
+                        </section>
+
+
+                    </section>
+
+
+
+                    <a
+                        id="nav-projekti"
+                        class="link-navigacija"
+                        href="projekti.html">
+
+                        PROJEKTI
+
+                    </a>
+
+
+                    <a
+                        id="nav-kontakt"
+                        class="link-navigacija"
+                        href="kontakt.html">
+
+                        KONTAKT
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+        </nav>
+
+
+    </header>
+
+
+
+
+    <!-- GLAVNI SADRŽAJ -->
+
+    <main>
+
+
+        <!-- UVOD U PROJEKTE -->
+
+        <section class="sekcija-projekti">
+
+
+            <div class="kontejner">
+
+
+                <h2
+                    id="projekti-naslov"
+                    class="naslov-sekcije">
+
+                    Naši projekti
+
+                </h2>
+
+
+                <p id="projekti-uvod">
+
+                    Projekti Centra za robotiku i STEM edukaciju
+                    nastaju kroz praktičan rad i primenu znanja iz
+                    robotike, elektronike, programiranja i drugih
+                    STEM oblasti.
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- LISTA PROJEKATA -->
+
+        <section class="sekcija-projekti">
+
+
+            <div class="kontejner">
+
+
+                <div class="flex-kontejner">
+
+
+
+                    <!-- AUTONOMNI ROBOT -->
+
+                    <article class="kartica">
+
+
+                        <img
+                            src="slike/autonomni-robot.jpg"
+                            alt="Projekat autonomnog robota">
+
+
+                        <h3 id="projekat-autonomni-robot-naslov">
+
+                            Autonomni robot
+
+                        </h3>
+
+
+                        <p id="projekat-autonomni-robot-tekst">
+
+                            Autonomni robot koristi senzore za
+                            prepoznavanje prepreka i samostalno
+                            menja pravac kretanja.
+
+                        </p>
+
+
+                    </article>
+
+
+
+
+                    <!-- ROBOTSKA RUKA -->
+
+                    <article class="kartica">
+
+
+                        <img
+                            src="slike/robotska-ruka.jpg"
+                            alt="Projekat robotske ruke">
+
+
+                        <h3 id="projekat-robotska-ruka-naslov">
+
+                            Robotska ruka
+
+                        </h3>
+
+
+                        <p id="projekat-robotska-ruka-tekst">
+
+                            Edukativni projekat kojim se prikazuje
+                            upravljanje pokretima robotske ruke
+                            pomoću elektronskih komponenti.
+
+                        </p>
+
+
+                    </article>
+
+
+
+
+                    <!-- PAMETNA KUĆA -->
+
+                    <article class="kartica">
+
+
+                        <img
+                            src="slike/pametna-kuca.jpg"
+                            alt="STEM projekat pametne kuće">
+
+
+                        <h3 id="projekat-pametna-kuca-naslov">
+
+                            Pametna kuća
+
+                        </h3>
+
+
+                        <p id="projekat-pametna-kuca-tekst">
+
+                            Sistem zasnovan na senzorima i elektronici
+                            omogućava automatizaciju različitih
+                            funkcija kuće.
+
+                        </p>
+
+
+                    </article>
+
+
+
+
+                    <!-- METEOROLOŠKA STANICA -->
+
+                    <article class="kartica">
+
+
+                        <img
+                            src="slike/meteoroloska-stanica.jpeg"
+                            alt="STEM projekat meteorološke stanice">
+
+
+                        <h3 id="projekat-meteoroloska-stanica-naslov">
+
+                            Meteorološka stanica
+
+                        </h3>
+
+
+                        <p id="projekat-meteoroloska-stanica-tekst">
+
+                            Projekat omogućava merenje temperature,
+                            vlažnosti vazduha i drugih podataka
+                            pomoću senzora.
+
+                        </p>
+
+
+                    </article>
+
+
+
+
+                    <!-- PAMETNO NAVODNJAVANJE -->
+
+                    <article class="kartica">
+
+
+                        <img
+                            src="slike/pametno-navodnjavanje.jpeg"
+                            alt="Projekat pametnog sistema za navodnjavanje">
+
+
+                        <h3 id="projekat-navodnjavanje-naslov">
+
+                            Pametno navodnjavanje
+
+                        </h3>
+
+
+                        <p id="projekat-navodnjavanje-tekst">
+
+                            Sistem prati stanje zemljišta i pomoću
+                            senzora automatski upravlja
+                            navodnjavanjem biljaka.
+
+                        </p>
+
+
+                    </article>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- VIDEO -->
+
+        <section class="sekcija">
+
+
+            <div class="kontejner">
+
+
+                <h2
+                    id="video-naslov"
+                    class="naslov-sekcije">
+
+                    Video prikaz projekta
+
+                </h2>
+
+
+                <p id="video-tekst">
+
+                    Pogledajte kratku demonstraciju jednog od
+                    edukativnih STEM projekata.
+
+                </p>
+
+
+                <video
+                    id="projekat-video"
+                    controls>
+
+                    <source
+                        src="video/stem-projekat.mp4"
+                        type="video/mp4">
+
+                    Vaš internet pregledač ne podržava video element.
+
+                </video>
+
+             
+      </div>
+         
+
+        </section>
+
+<!-- YOUTUBE VIDEO -->
+        
+          <div class="youtube-kontejner">
+
+    <iframe
+        class="youtube-video"
+        src="https://www.youtube.com/embed/kPSBpfUpHt0"
+        title="Intelligent Obstacle Avoiding Robot"
+        allowfullscreen>
+    </iframe>
+
+</div>
+
+
+
+
+        <!-- DOKUMENT -->
+
+        <section class="sekcija-projekti">
+
+
+            <div class="kontejner">
+
+
+                <h2
+                    id="dokument-naslov"
+                    class="naslov-sekcije">
+
+                    Dokumentacija projekta
+
+                </h2>
+
+
+                <p id="dokument-tekst">
+
+                    Detaljniji opis projekta Pametna kuća
+                    dostupan je u pratećem dokumentu.
+
+                </p>
+
+
+                <a
+                    id="dokument-link"
+                    class="dugme-link"
+                    href="dokumenti/pametna-kuca.pdf"
+                    target="_blank">
+
+                    Pogledaj dokumentaciju projekta
+
+                </a>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <!-- PODNOŽJE -->
+
+    <footer class="futer">
+
+
+        <div class="kontejner">
+
+
+            <p id="footer-1">
+
+                &copy; 2026 Centar za robotiku i STEM edukaciju
+
+            </p>
+
+
+            <p id="footer-2">
+
+                Edukacija • Robotika • Programiranje • STEM
+
+            </p>
+
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>

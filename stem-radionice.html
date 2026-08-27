@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Centar za robotiku i STEM edukaciju | STEM radionice</title>
+
+
+    <!-- SEO -->
+
+    <meta
+        name="description"
+        content="STEM radionice Centra za robotiku i STEM edukaciju povezuju nauku, tehnologiju, inženjerstvo i matematiku kroz praktične zadatke i projekte.">
+
+    <meta
+        name="keywords"
+        content="STEM, STEM radionice, nauka, tehnologija, inženjerstvo, matematika, edukacija">
+
+    <meta
+        name="author"
+        content="Centar za robotiku i STEM edukaciju">
+
+    <meta
+        name="robots"
+        content="index, follow">
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="css/stil.css">
+
+
+    <!-- Svetla i tamna tema -->
+
+    <link
+        id="tema-stil"
+        rel="stylesheet"
+        href="css/svetla.css">
+
+
+    <!-- Promena fonta -->
+
+    <link
+        id="font-stil"
+        rel="stylesheet"
+        href="">
+
+
+    <!-- jQuery -->
+
+    <script
+        src="js/jquery-4.0.0.min.js"
+        defer>
+    </script>
+
+
+    <!-- JavaScript -->
+
+    <script
+        src="js/skripta.js"
+        defer>
+    </script>
+
+    <script
+        src="js/tema.js"
+        defer>
+    </script>
+
+    <script
+        src="js/jezik.js"
+        defer>
+    </script>
+
+</head>
+
+
+<body>
+
+
+    <!-- ZAGLAVLJE -->
+
+    <header class="zaglavlje">
+
+
+        <div class="zaglavlje-kontejner">
+
+
+            <!-- LOGO -->
+
+            <a href="index.html">
+
+                <img
+                    id="logo"
+                    src="slike/logo.png"
+                    alt="Logo Centra za robotiku i STEM edukaciju">
+
+            </a>
+
+
+            <!-- NAZIV CENTRA -->
+
+            <div class="naziv-centra">
+
+                <h1 id="naslov-centra">
+                    Centar za robotiku i STEM edukaciju
+                </h1>
+
+                <p id="podnaslov-centra">
+                    Znanje, tehnologija i ideje budućnosti
+                </p>
+
+            </div>
+
+
+            <!-- PRISTUPAČNOST I JEZIK -->
+
+            <div class="pristupacnost">
+
+
+                <button
+                    id="dugme-tema"
+                    onclick="promeniTemu()">
+
+                    Promeni temu
+
+                </button>
+
+
+                <button
+                    id="dugme-font"
+                    onclick="promeniFont()">
+
+                    Promeni font
+
+                </button>
+
+
+                <button onclick="promeniJezik('sr')">
+
+                    Prevedi na srpski
+
+                </button>
+
+
+                <button onclick="promeniJezik('en')">
+
+                    Prevedi na engleski
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- NAVIGACIJA -->
+
+        <nav
+            class="meni"
+            aria-label="Glavna navigacija">
+
+
+            <div class="nav-kontejner">
+
+
+                <!-- HAMBURGER MENI -->
+
+                <div
+                    class="hamburger"
+                    id="hamburger">
+
+                    &#9776;
+
+                </div>
+
+
+
+                <div
+                    class="meni-lista"
+                    id="meni-lista">
+
+
+                    <a
+                        id="nav-pocetna"
+                        class="link-navigacija"
+                        href="index.html">
+
+                        POČETNA
+
+                    </a>
+
+
+                    <a
+                        id="nav-o-nama"
+                        class="link-navigacija"
+                        href="o-nama.html">
+
+                        O NAMA
+
+                    </a>
+
+
+
+                    <!-- MEGA MENI -->
+
+                    <section id="megaMeni-Kontejner">
+
+
+                        <button id="megaMeni-Dugme">
+
+                            PROGRAMI
+
+                        </button>
+
+
+
+                        <section id="megaMeni-Manji-Kontejner">
+
+
+                            <div class="MegaMeni-Kolona">
+
+
+                                <h3 id="mega-robotika-elektronika">
+
+                                    Robotika i elektronika
+
+                                </h3>
+
+
+                                <a
+                                    id="mega-robotika"
+                                    class="link-navigacija"
+                                    href="robotika.html">
+
+                                    Robotika
+
+                                </a>
+
+
+                                <a
+                                    id="mega-arduino"
+                                    class="link-navigacija"
+                                    href="arduino-elektronika.html">
+
+                                    Arduino i elektronika
+
+                                </a>
+
+
+                                <a
+                                    id="mega-stem"
+                                    class="link-navigacija"
+                                    href="stem-radionice.html">
+
+                                    STEM radionice
+
+                                </a>
+
+
+                            </div>
+
+
+
+                            <div class="MegaMeni-Kolona">
+
+
+                                <h3 id="mega-programiranje-dizajn">
+
+                                    Programiranje i dizajn
+
+                                </h3>
+
+
+                                <a
+                                    id="mega-programiranje"
+                                    class="link-navigacija"
+                                    href="programiranje.html">
+
+                                    Programiranje
+
+                                </a>
+
+
+                                <a
+                                    id="mega-3d"
+                                    class="link-navigacija"
+                                    href="3D-modelovanje.html">
+
+                                    3D modelovanje
+
+                                </a>
+
+
+                            </div>
+
+
+                        </section>
+
+
+                    </section>
+
+
+
+                    <a
+                        id="nav-projekti"
+                        class="link-navigacija"
+                        href="projekti.html">
+
+                        PROJEKTI
+
+                    </a>
+
+
+                    <a
+                        id="nav-kontakt"
+                        class="link-navigacija"
+                        href="kontakt.html">
+
+                        KONTAKT
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+        </nav>
+
+
+    </header>
+
+
+
+
+    <!-- GLAVNI SADRŽAJ -->
+
+    <main>
+
+
+        <section class="sekcija">
+
+
+            <div class="kontejner">
+
+
+                <h2
+                    id="stem-stranica-naslov"
+                    class="naslov-sekcije">
+
+                    STEM radionice
+
+                </h2>
+
+
+                <p id="stem-stranica-opis">
+
+                    STEM radionice namenjene su polaznicima koji žele da kroz
+                    praktičan i kreativan rad povežu znanja iz nauke, tehnologije,
+                    inženjerstva i matematike. Tokom radionica polaznici rešavaju
+                    različite praktične zadatke, istražuju način rada savremenih
+                    tehnologija i primenjuju stečena znanja prilikom izrade
+                    jednostavnih eksperimenata i projekata. Posebna pažnja
+                    posvećena je razvijanju logičkog razmišljanja, kreativnosti,
+                    timskog rada i sposobnosti rešavanja problema. Radionice su
+                    prilagođene početnicima i omogućavaju polaznicima da kroz
+                    zanimljive praktične aktivnosti upoznaju različite STEM oblasti
+                    i razumeju njihovu primenu u svakodnevnom životu.
+
+                </p>
+
+
+                <p id="stem-stranica-kontakt">
+
+                    Ukoliko želite da pohađate ovaj program ili su vam potrebne
+                    dodatne informacije, možete nam se obratiti putem stranice
+                    Kontakt koja se nalazi u glavnom meniju.
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <!-- PODNOŽJE -->
+
+    <footer class="futer">
+
+
+        <div class="kontejner">
+
+
+            <p id="footer-1">
+
+                &copy; 2026 Centar za robotiku i STEM edukaciju
+
+            </p>
+
+
+            <p id="footer-2">
+
+                Edukacija • Robotika • Programiranje • STEM
+
+            </p>
+
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>

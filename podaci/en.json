@@ -1,0 +1,158 @@
+{
+   "pocetna": {
+
+    
+    "naslov": "Center for Robotics and STEM Education",
+  "podnaslov": "Knowledge, technology and ideas for the future",
+
+  "promeniTemu": "Change theme",
+  "promeniFont": "Change font",
+
+  "pocetna": "HOME",
+  "oNama": "ABOUT US",
+  "programi": "PROGRAMS",
+  "projekti": "PROJECTS",
+  "kontakt": "CONTACT",
+
+  "megaRobotikaElektronika": "Robotics and electronics",
+  "megaRobotika": "Robotics",
+  "megaArduino": "Arduino and electronics",
+  "megaStem": "STEM workshops",
+
+  "megaProgramiranjeDizajn": "Programming and design",
+  "megaProgramiranje": "Programming",
+  "mega3D": "3D modeling",
+
+  "dobrodosliNaslov": "Welcome to the Center for Robotics and STEM Education",
+
+  "dobrodosliTekst1": "The Center for Robotics and STEM Education is dedicated to learning, developing creativity and gaining practical knowledge in the field of modern technologies.",
+
+  "dobrodosliTekst2": "Through practical work, participants learn about robotics, programming, electronics, the Arduino platform, 3D modeling and other STEM fields.",
+
+  "saznajteVise": "Learn more about us",
+
+  "izdvojeniProgrami": "Featured programs",
+
+  "robotikaNaslov": "Robotics",
+  "robotikaTekst": "Introduction to the basics of robotics, sensors, motors and robot control.",
+
+  "programiranjeNaslov": "Programming",
+  "programiranjeTekst": "Development of logical thinking and introduction to the basics of programming through practical tasks.",
+
+  "arduinoNaslov": "Arduino and electronics",
+  "arduinoTekst": "Working with electronic components, sensors and the Arduino platform.",
+
+  "pogledajtePrograme": "View all programs",
+
+  "izdvojeniProjekti": "Featured projects",
+
+  "autonomniRobotNaslov": "Autonomous robot",
+  "autonomniRobotTekst": "A robot that uses sensors to detect obstacles and independently changes its direction of movement.",
+
+  "robotskaRukaNaslov": "Robotic arm",
+  "robotskaRukaTekst": "An educational project demonstrating the control of robotic arm movements.",
+
+  "pametnaKucaNaslov": "Smart house",
+  "pametnaKucaTekst": "A system based on sensors and electronics for automating different functions of a house.",
+
+  "pogledajteProjekte": "View all projects",
+
+  "footer1": "© 2026 Center for Robotics and STEM Education",
+  "footer2": "Education • Robotics • Programming • STEM"
+  },
+
+  "projekti": {
+    "projektiNaslov": "Our Projects",
+    "projektiUvod": "The projects of the Center for Robotics and STEM Education are created through practical work and the application of knowledge in robotics, electronics, programming and other STEM fields.",
+
+    "autonomniRobotNaslov": "Autonomous Robot",
+    "autonomniRobotTekst": "The autonomous robot uses sensors to detect obstacles and independently changes its direction of movement.",
+
+    "robotskaRukaNaslov": "Robotic Arm",
+    "robotskaRukaTekst": "An educational project that demonstrates the control of robotic arm movements using electronic components.",
+
+    "pametnaKucaNaslov": "Smart Home",
+    "pametnaKucaTekst": "A system based on sensors and electronics enables the automation of various home functions.",
+
+    "meteoroloskaStanicaNaslov": "Weather Station",
+    "meteoroloskaStanicaTekst": "The project enables the measurement of temperature, air humidity and other data using sensors.",
+
+    "navodnjavanjeNaslov": "Smart Irrigation",
+    "navodnjavanjeTekst": "The system monitors soil conditions and uses sensors to automatically control plant irrigation.",
+
+    "videoNaslov": "Project Video",
+    "videoTekst": "Watch a short demonstration of one of the educational STEM projects.",
+
+    "dokumentNaslov": "Project Documentation",
+    "dokumentTekst": "A more detailed description of the Smart Home project is available in the accompanying document.",
+
+    "dokumentLink": "View Project Documentation"
+},
+
+"robotika": {
+    "naslov": "Robotics",
+    "opis": "The Robotics program is intended for participants who want to learn the basics of modern robotic systems and their applications. During the program, participants learn about the basic principles of robot operation, sensors, motors and control systems, as well as the fundamentals of programming used to control robot behavior. Special attention is given to understanding how a robot receives information from its environment, processes it and performs specific tasks based on that information. The program is suitable for beginners and provides a gradual introduction to robotics through simple and practical examples.",
+    "kontakt": "If you would like to attend this program or need additional information, you can contact us through the Contact page located in the main menu."
+},
+
+"arduino": {
+    "naslov": "Arduino and Electronics",
+    "opis": "The Arduino and Electronics program is intended for participants who want to learn the basics of electronics, microcontrollers and programming through practical work with the Arduino platform. During the program, participants learn how to connect and use different electronic components, sensors, LEDs, buttons and other elements, as well as how to control their operation through programming. Special attention is given to understanding how Arduino receives data from connected components, processes it and executes programmed commands. The program is suitable for beginners and provides a gradual introduction to electronics and programming through simple practical examples.",
+    "kontakt": "If you would like to attend this program or need additional information, you can contact us through the Contact page located in the main menu."
+},
+
+"stemRadionice": {
+    "naslov": "STEM Workshops",
+    "opis": "STEM workshops are intended for participants who want to combine knowledge from science, technology, engineering and mathematics through practical and creative activities. During the workshops, participants solve different practical tasks, explore how modern technologies work and apply their knowledge while creating simple experiments and projects. Special attention is given to developing logical thinking, creativity, teamwork and problem-solving skills. The workshops are suitable for beginners and allow participants to explore different STEM fields through interesting practical activities and understand their applications in everyday life.",
+    "kontakt": "If you would like to attend this program or need additional information, you can contact us through the Contact page located in the main menu."
+},
+
+"programiranje": {
+    "naslov": "Programming",
+    "opis": "The Programming program is intended for participants who want to learn the basic principles of computer program development and how programming code can be used to solve different problems. During the program, participants learn about basic programming concepts, variables, conditions, loops, functions and simple algorithms while gradually developing logical and algorithmic thinking. Special attention is given to understanding program code and its practical application through the creation of simple programs and problem-solving exercises. The program is suitable for beginners and provides the basic knowledge needed for further learning and development in the field of programming.",
+    "kontakt": "If you would like to attend this program or need additional information, you can contact us through the Contact page located in the main menu."
+},
+
+"modelovanje3D": {
+    "naslov": "3D Modeling",
+    "opis": "The 3D Modeling program is intended for participants who want to learn the basics of creating and shaping three-dimensional digital models. During the program, participants learn the basic principles of working with 3D modeling software, creating simple geometric shapes, combining them, changing their dimensions and designing more complex objects. Special attention is given to developing spatial thinking, creativity and understanding how digital 3D models can be used in design, engineering, robotics and other technical fields. The program is suitable for beginners and provides a gradual introduction to the basic knowledge required for independently creating simple 3D models.",
+    "kontakt": "If you would like to attend this program or need additional information, you can contact us through the Contact page located in the main menu."
+},
+
+"kontaktStranica": {
+    "naslov": "Contact",
+    "uvod": "For additional information about our programs and workshops, you can send us a message using the contact form.",
+    "ime": "Full name:",
+    "email": "Email:",
+    "program": "Choose a program:",
+    "izaberite": "Choose a program",
+    "robotika": "Robotics",
+    "arduino": "Arduino and Electronics",
+    "stem": "STEM Workshops",
+    "programiranje": "Programming",
+    "modelovanje": "3D Modeling",
+    "poruka": "Message:",
+    "posalji": "Send"
+},
+
+"oNamaStranica": {
+    "naslov": "About Us",
+    "tekst": "The Center for Robotics and STEM Education is an educational center dedicated to learning and developing practical knowledge in the field of modern technologies. Through programs in robotics, programming, electronics, Arduino, STEM workshops and 3D modeling, we enable participants to develop technical skills, creativity and problem-solving abilities through practical work.",
+
+    "misijaNaslov": "Our Mission",
+    "misijaTekst": "Our mission is to introduce participants to modern technologies through practical learning, experiments and the development of various projects, as well as to encourage interest in robotics, programming and other STEM fields.",
+
+    "ciljeviNaslov": "Our Goals",
+    "ciljeviTekst": "The goal of the center is to develop practical and technical knowledge, encourage creativity, introduce participants to modern technologies and create an environment in which they can develop their own ideas and implement various STEM projects.",
+
+    "vlasnikNaslov": "Center Owner",
+    "vlasnikIme": "Ilija Ljubojević",
+    "instagramTekst": "Owner's Instagram profile:",
+
+    "lokacijaNaslov": "Where to Find Us",
+    "lokacijaTekst": "The center is located at Gundulićeva 3, Vršac."
+}
+
+
+  
+}
