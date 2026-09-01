@@ -10,9 +10,9 @@ function prikaziSlajd(indexSlajda) {
         return;
     }
 
-    if (indexSlajda >= slajdovi.length) //ako brojac slajda jednak broju sladova onda se vracamo na prvu sliku  {
+    if (indexSlajda >= slajdovi.length)  { //ako brojac slajda jednak broju sladova onda se vracamo na prvu sliku 
         trenutniSlajd = 0;
-    } else if (indexSlajda < 0) // ako kliknemo levu strelicu slajda onda tok slajda se usmerava na poslednju sliku slajda  {
+    } else if (indexSlajda < 0)  {// ako kliknemo levu strelicu slajda onda tok slajda se usmerava na poslednju sliku slajda 
         trenutniSlajd = slajdovi.length - 1;
     } else {
         trenutniSlajd = indexSlajda;
@@ -64,9 +64,9 @@ window.onload = function() {
 
 /* HAMBURGER MENI - jQuery */
 
-$('#hamburger').on('click', function()// klikom na element sa id hamburger {
+$('#hamburger').on('click', function(){// klikom na element sa id hamburger 
 
-    $('#meni-lista').toggleClass('aktivno')//prikazuje se meni lista sa svojstvom klase aktivno;
+    $('#meni-lista').toggleClass('aktivno');//prikazuje se meni lista sa svojstvom klase aktivno
 
 });
 
