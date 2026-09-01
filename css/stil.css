@@ -1,7 +1,7 @@
 /* OSNOVNA PODESAVANJA */
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* padding i border se racunaju u visinu i sirinu div-a */
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.6; /* razmak izmedju tekstova je 160 posto naspram velicine reda za tekstove  */
     background-color: #f4f7f6;
     color: #333333;
 }
@@ -19,15 +19,15 @@ body {
 
 .zaglavlje {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* jedan ispod drugog.... tako su elementi rasporedjeni */
     width: 100%;
 }
 
 .zaglavlje-kontejner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* ono sto ne staje u red staje ispod njega  */
     padding: 15px 40px;
     background-color: #ffffff;
 }
@@ -35,7 +35,7 @@ body {
 #logo {
     width: 100px;
     height: 100px;
-    object-fit: contain;
+    object-fit: contain; /* prikaz slike tako da popuni ceo prostor diva i da se cela vidi */
 }
 
 .naziv-centra {
@@ -58,7 +58,7 @@ body {
 
 .pristupacnost {
     display: flex;
-    gap: 10px;
+    gap: 10px;/* razmak izmedju elementata */
     justify-content: center;
     width: 100%;
     margin-top: 15px;
@@ -225,7 +225,7 @@ body {
 
 .slajd.prikazi {
     opacity: 1;
-    transition: 0.5s ease;
+    transition: 0.5s ease; /* samo ako se nesto promeni u klasi slajd onda nek to traje u trajanju od 0.5 sekundi */
 }
 
 .slajder .prethodni,
@@ -510,19 +510,19 @@ main {
     width: 180px;
     height: auto;
     object-fit: fill;
-    animation: pojavljivanjeLogoa 3.5s ease;
+    animation: pojavljivanjeLogoa 3.5s ease; /* tri i po sekunde traje animacija pojavljivanjeLogoa */
 }
 
 @keyframes pojavljivanjeLogoa {
     from {
-        opacity: 0;
+        opacity: 0; /* nevidljivost  */
         transform: scale(0.8);
     }
 
     to {
         opacity: 1;
-        transform: scale(1);
-    }
+        transform: scale(1); 
+    } /* dakle slika se polako pojavila i povecala za 1-0.8=0.2 dakle za 20 posto... */
 }
 
 #projekat-video {
