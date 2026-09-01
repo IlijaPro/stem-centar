@@ -1,8 +1,8 @@
-function promeniJezik(jezik) {
+function promeniJezik(jezik)//kupi podatak sa html dugmeta koji jezik je u pitanju  {
 
-    localStorage.setItem("jezik", jezik);
+    localStorage.setItem("jezik", jezik);// ovo pod znacima navoda je kljucna rec a ovo posle zareza je argument funkcije promeniJezik 
 
-    fetch("podaci/" + jezik + ".json")
+    fetch("podaci/" + jezik + ".json")// pravi se putanja do json fajlova koje se potom proveravaju kroz .then(response.ok)
         .then(response => {
 
             if (!response.ok) {
@@ -14,13 +14,13 @@ function promeniJezik(jezik) {
 
         .then(podaci => {
 
-            const tekstovi = podaci.pocetna;
+            const tekstovi = podaci.pocetna;// ovde pristupamo zeljenom delu prevoda evo u ovom slucaju deo prevoda za stranicu pocetna 
 
 
             /* ZAJEDNICKI DEO SVIH STRANICA */
 
             document.getElementById("naslov-centra").innerHTML =
-                tekstovi.naslov;
+                tekstovi.naslov;// ovde je tekstovi zapravo skupina podataka iz fajla za prevod a rec naslov ovde konkretna promenljiva sa json fajla 
 
             document.getElementById("podnaslov-centra").innerHTML =
                 tekstovi.podnaslov;
@@ -365,7 +365,7 @@ if (document.getElementById("o-nama-naslov")) {
         oNama.lokacijaTekst;
 }
 
-            console.log(podaci);
+            console.log(podaci);// ovo je samo za proveru ispisa svih podataka koji se nalaze u prevodu
 
         })
 
