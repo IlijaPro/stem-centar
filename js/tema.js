@@ -1,4 +1,4 @@
-function setujKolacic(ime, vrednost, dani) {// vrednost je ovde koji je tip teme
+function setujKolacic(ime, vrednost, dani) {// vrednost je ovde koji je tip teme ili font...
 
     const datum = new Date();
 
@@ -100,7 +100,7 @@ function promeniTemu() {
             );
 
 
-            kartice.forEach(function(kartica) {
+            kartice.forEach(function(kartica) {//ovom petljom svaka div kutija ili bolje receno kartica menja pozadinsku boju kao i boju slova
 
                 kartica.classList.remove(
                     "bg-white",
@@ -135,15 +135,9 @@ function promeniTemu() {
     const trenutnaTema =
         link.getAttribute("href");
 
-    const novaTema =
-        trenutnaTema === "css/svetla.css"
-            ? "css/tamna.css"
-            : "css/svetla.css";
+    const novaTema = trenutnaTema === "css/svetla.css" ? "css/tamna.css": "css/svetla.css";
 
-    link.setAttribute(
-        "href",
-        novaTema
-    );
+    link.setAttribute("href",novaTema); // menja se vrednost promenljive novaTema u putanji href
 
     setujKolacic(
         "tema",
@@ -167,7 +161,7 @@ function promeniFont() {
     if (bootstrapStranica) {
 
         const tekstovi =
-            bootstrapStranica.querySelectorAll("p");
+            bootstrapStranica.querySelectorAll("p"); // bootstrap klasa p
 
         const povecan =
             uzmiKolacic("font") === "povecan";
