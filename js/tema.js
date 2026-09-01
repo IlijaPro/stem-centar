@@ -1,9 +1,9 @@
-function setujKolacic(ime, vrednost, dani) {
+function setujKolacic(ime, vrednost, dani) {// vrednost je ovde koji je tip teme
 
     const datum = new Date();
 
     datum.setTime(
-        datum.getTime() + (dani * 24 * 60 * 60 * 1000)
+        datum.getTime() + (dani * 24 * 60 * 60 * 1000)// trenutni datum + odredjen broj dana pretvoren u milisekunde  
     );
 
     const istice =
@@ -23,12 +23,9 @@ function uzmiKolacic(ime) {
 
         let k = kolacici[i].trim();
 
-        if (k.indexOf(ime + "=") === 0) {
+        if (k.indexOf(ime + "=") === 0) {// proverava da li podstring "ime =" se nalazi na pocetku k kolacica posto je pocetna pozicija 0
 
-            return k.substring(
-                (ime + "=").length,
-                k.length
-            );
+            return k.substring( (ime + "=").length, k.length ); // na osnovu ova dva parametra izvlaci se naziv vrednosti teme
         }
     }
 
@@ -50,13 +47,13 @@ function promeniTemu() {
     if (bootstrapStranica) {
 
         const kartice =
-            document.querySelectorAll(".card");
+            document.querySelectorAll(".card"); // card je ovde bootstrapp klasa
 
         const tamnaTema =
             bootstrapStranica.classList.contains("bg-dark");
 
 
-        if (tamnaTema) {
+        if (tamnaTema) {// ako je trenutno tamna tema ukljucena
 
             bootstrapStranica.classList.remove(
                 "bg-dark",
