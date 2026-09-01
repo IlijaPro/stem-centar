@@ -92,7 +92,7 @@ function validacija() {
 
 
     let emailPattern =
-        /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; // pre znaka @ mogu da stoje odredjeni karakteri .... ... ... i minimalno 2 karaktera
 
 
     if (email === "" || !emailPattern.test(email)) {
