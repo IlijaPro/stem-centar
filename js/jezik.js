@@ -1,4 +1,4 @@
-function promeniJezik(jezik)//kupi podatak sa html dugmeta koji jezik je u pitanju  {
+function promeniJezik(jezik)  {//kupi podatak sa html dugmeta koji jezik je u pitanju
 
     localStorage.setItem("jezik", jezik);// ovo pod znacima navoda je kljucna rec a ovo posle zareza je argument funkcije promeniJezik 
 
