@@ -4,25 +4,25 @@ let trenutniSlajd = 0;
 
 function prikaziSlajd(indexSlajda) {
 
-    let slajdovi = document.querySelectorAll('.slajd');
+    let slajdovi = document.querySelectorAll('.slajd'); // trzi slike slajda po klasi koja je oznacena u html-u sa "slajd"
 
-    if (slajdovi.length === 0) {
+    if (slajdovi.length === 0) {// ako nema slika za slajd
         return;
     }
 
-    if (indexSlajda >= slajdovi.length) {
+    if (indexSlajda >= slajdovi.length) //ako brojac slajda jednak broju sladova onda se vracamo na prvu sliku  {
         trenutniSlajd = 0;
-    } else if (indexSlajda < 0) {
+    } else if (indexSlajda < 0) // ako kliknemo levu strelicu slajda onda tok slajda se usmerava na poslednju sliku slajda  {
         trenutniSlajd = slajdovi.length - 1;
     } else {
         trenutniSlajd = indexSlajda;
     }
 
     slajdovi.forEach(slajd => {
-        slajd.classList.remove('prikazi');
+        slajd.classList.remove('prikazi'); // prikazi= naziv klase 
     });
 
-    slajdovi[trenutniSlajd].classList.add('prikazi');
+    slajdovi[trenutniSlajd].classList.add('prikazi');// ovo prikazi predstavlja naziv klase u css gde je definisano da se slika vidi : opacity:1; 
     slajdovi[trenutniSlajd].style.display = 'block';
 }
 
@@ -64,9 +64,9 @@ window.onload = function() {
 
 /* HAMBURGER MENI - jQuery */
 
-$('#hamburger').on('click', function() {
+$('#hamburger').on('click', function()// klikom na element sa id hamburger {
 
-    $('#meni-lista').toggleClass('aktivno');
+    $('#meni-lista').toggleClass('aktivno')//prikazuje se meni lista sa svojstvom klase aktivno;
 
 });
 
@@ -111,7 +111,7 @@ function validacija() {
     }
 
 
-    let jezik = localStorage.getItem("jezik");
+    let jezik = localStorage.getItem("jezik");// kupi podatke sa local storeg-a i to sa jezik.js
 
     if (jezik === "en") {
 
