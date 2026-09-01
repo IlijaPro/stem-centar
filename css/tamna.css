@@ -54,7 +54,7 @@ body {
 
 /* MEGA MENI */
 
-#megaMeni-Kontejner:hover #megaMeni-Manji-Kontejner {
+#megaMeni-Kontejner:hover #megaMeni-Manji-Kontejner { /* svojstva sa id-em megaMeni-Manji-Kontejner dobijaju trazenu pozadinu pod ulovom da pripadaju i prvom id-u */
     background-color: #1e1e1e;
 }
 
@@ -63,7 +63,7 @@ body {
     color: #ffffff;
 }
 
-#megaMeni-Manji-Kontejner .link-navigacija:hover {
+#megaMeni-Manji-Kontejner .link-navigacija:hover { 
     background-color: #3a3a3a;
     color: #ffffff;
 }
