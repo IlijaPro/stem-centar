@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fontovi/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-size: 18px !important;
-    font-family: 'Georgia', serif !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 p {
